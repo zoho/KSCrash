@@ -112,4 +112,8 @@ typedef enum
 
 - (NSString*)headerStringForSystemInfo:(NSDictionary*)system reportID:(NSString*)reportID crashTime:(NSDate*)crashTime;
 
+- (int) majorVersion:(NSDictionary*) report;
+
+- (NSString*) toAppleFormat:(NSDictionary*) JSONReport;
+
 @end

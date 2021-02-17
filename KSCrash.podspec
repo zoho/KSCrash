@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.osx.deployment_target =  '10.8'
   s.tvos.deployment_target =  '9.0'
   s.watchos.deployment_target =  '2.0'
-  s.source       = { :git => "https://github.com/kstenerud/KSCrash.git", :tag=>s.version.to_s }
+  #s.source       = { :git => "https://github.com/kstenerud/KSCrash.git", :tag=>s.version.to_s }
+    s.source       = { :git => "https://git.csez.zohocorpin.com/ssaravanan/KSCrash.git", :commit => "6b380b680556d77764c418438551ee5c7d1e6870" }
   s.frameworks = 'Foundation'
   s.libraries = 'c++', 'z'
   s.xcconfig = { 'GCC_ENABLE_CPP_EXCEPTIONS' => 'YES' }
@@ -20,7 +21,7 @@ Pod::Spec.new do |s|
     recording.compiler_flags = '-fno-optimize-sibling-calls'
     recording.source_files   = 'Source/KSCrash/Recording/**/*.{h,m,mm,c,cpp}',
                                'Source/KSCrash/llvm/**/*.{h,m,mm,c,cpp}',
-                               'Source/KSCrash/swift/**/*.{h,m,mm,c,cpp}',
+                               #'Source/KSCrash/swift/**/*.{h,m,mm,c,cpp}',
                                'Source/KSCrash/Reporting/Filters/KSCrashReportFilter.h'
     recording.public_header_files = 'Source/KSCrash/Recording/KSCrash.h',
                                     'Source/KSCrash/Recording/KSCrashC.h',
