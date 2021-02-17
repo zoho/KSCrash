@@ -57,6 +57,15 @@
 
 @end
 
+static NSBundle* getMainBundle()
+{
+  NSBundle *bundle = [NSBundle mainBundle];
+  if ([[bundle.bundleURL pathExtension] isEqualToString:@"appex"]) {
+      // Peel off two directory levels - MY_APP.app/PlugIns/MY_APP_EXTENSION.appex
+      bundle = [NSBundle bundleWithURL:[[bundle.bundleURL URLByDeletingLastPathComponent] URLByDeletingLastPathComponent]];
+  }
+  return bundle;
+}
 
 static NSString* getBundleName()
 {
@@ -70,20 +79,26 @@ static NSString* getBundleName()
 
 static NSString* getBasePath()
 {
-    NSArray* directories = NSSearchPathForDirectoriesInDomains(NSCachesDirectory,
-                                                               NSUserDomainMask,
-                                                               YES);
-    if([directories count] == 0)
-    {
-        KSLOG_ERROR(@"Could not locate cache directory path.");
-        return nil;
-    }
-    NSString* cachePath = [directories objectAtIndex:0];
-    if([cachePath length] == 0)
-    {
-        KSLOG_ERROR(@"Could not locate cache directory path.");
-        return nil;
-    }
+  NSArray* directories = NSSearchPathForDirectoriesInDomains(NSCachesDirectory,
+                                                             NSUserDomainMask,
+                                                             YES);
+  if([directories count] == 0)
+  {
+      KSLOG_ERROR(@"Could not locate cache directory path.");
+      return nil;
+  }
+  NSString* cachePath = [directories objectAtIndex:0];
+  if([cachePath length] == 0)
+  {
+      KSLOG_ERROR(@"Could not locate cache directory path.");
+      return nil;
+  }
+  
+  NSString *appGroupIdentifier = [[getMainBundle() infoDictionary] objectForKey:@"ZA_APP_GROUP_IDENTIFIER"];
+  if (appGroupIdentifier != nil && ![appGroupIdentifier isEqualToString:@""]){
+    cachePath = [[[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:appGroupIdentifier].path stringByAppendingPathComponent:@"Library/Caches"];
+  }
+  
     NSString* pathEnd = [@"KSCrash" stringByAppendingPathComponent:getBundleName()];
     return [cachePath stringByAppendingPathComponent:pathEnd];
 }
