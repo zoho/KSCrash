@@ -116,6 +116,7 @@ static NSDictionary* g_registerOrders;
 {
     g_dateFormatter = [[NSDateFormatter alloc] init];
     [g_dateFormatter setLocale:[NSLocale localeWithLocaleIdentifier:@"en_US_POSIX"]];
+    //Changed for Apptics 
     //[g_dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.SSS ZZZ"];
     [g_dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss Z"];
 
@@ -449,7 +450,7 @@ static NSDictionary* g_registerOrders;
      [system objectForKey:@KSCrashField_ProcessID]];
     [str appendFormat:@"Path:            %@\n", executablePath];
     [str appendFormat:@"Identifier:      %@\n", [system objectForKey:@KSCrashField_BundleID]];
-    //Changed the format of diaplaying App release and build versions.
+    //Changed the format of diaplaying App release and build versions for Apptics.
       [str appendFormat:@"Version:         %@ (%@)\n",
        [system objectForKey:@KSCrashField_BundleShortVersion], [system objectForKey:@KSCrashField_BundleVersion]];
     [str appendFormat:@"Code Type:       %@\n", cpuArchType];
