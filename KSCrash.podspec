@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target =  '9.0'
   s.watchos.deployment_target =  '2.0'
   #s.source       = { :git => "https://github.com/kstenerud/KSCrash.git", :tag=>s.version.to_s }
-    s.source       = { :git => "https://git.csez.zohocorpin.com/ssaravanan/KSCrash.git", :commit => "a22e415312a8b044d308a3065a8afe567bbafae1" }
+    s.source       = { :git => "https://github.com/zoho/KSCrash.git", :commit => "759021e7d24d26b50fe85d40b360ac14228b6d81" }
   s.frameworks = 'Foundation'
   s.libraries = 'c++', 'z'
   s.xcconfig = { 'GCC_ENABLE_CPP_EXCEPTIONS' => 'YES' }
@@ -27,10 +27,10 @@ Pod::Spec.new do |s|
                                     'Source/KSCrash/Recording/KSCrashC.h',
                                     'Source/KSCrash/Recording/KSCrashReportWriter.h',
                                     'Source/KSCrash/Recording/KSCrashReportFields.h',
+                                    'Source/KSCrash/Reporting/KSCrashReportStore.h',
+                                    'Source/KSCrash/Reporting/KSCrashDoctor.h'
                                     'Source/KSCrash/Recording/Monitors/KSCrashMonitorType.h',
                                     'Source/KSCrash/Reporting/Filters/KSCrashReportFilter.h',
-                                    'Source/KSCrash/Reporting/Filters/KSCrashReportStore.h',
-                                    'Source/KSCrash/Reporting/Filters/KSCrashDoctor.h'
                                     
 
     recording.subspec 'Tools' do |tools|
