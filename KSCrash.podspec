@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
                                     'Source/KSCrash/Recording/KSCrashC.h',
                                     'Source/KSCrash/Recording/KSCrashReportWriter.h',
                                     'Source/KSCrash/Recording/KSCrashReportFields.h',
-                                    'Source/KSCrash/Recording/KSCrashDoctor.h'
+                                    'Source/KSCrash/Recording/KSCrashDoctor.h',
                                     'Source/KSCrash/Recording/Monitors/KSCrashMonitorType.h',
                                     'Source/KSCrash/Reporting/Filters/KSCrashReportFilter.h',
                                     'Source/KSCrash/Reporting/KSCrashReportStore.h',
