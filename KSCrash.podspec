@@ -28,9 +28,9 @@ Pod::Spec.new do |s|
                                     'Source/KSCrash/Recording/KSCrashReportWriter.h',
                                     'Source/KSCrash/Recording/KSCrashReportFields.h',
                                     'Source/KSCrash/Recording/KSCrashDoctor.h',
+                                    'Source/KSCrash/Recording/KSCrashReportStore.h',
                                     'Source/KSCrash/Recording/Monitors/KSCrashMonitorType.h',
-                                    'Source/KSCrash/Reporting/Filters/KSCrashReportFilter.h',
-                                    'Source/KSCrash/Reporting/KSCrashReportStore.h',
+                                    'Source/KSCrash/Reporting/Filters/KSCrashReportFilter.h'
 
     recording.subspec 'Tools' do |tools|
       tools.source_files = 'Source/KSCrash/Recording/Tools/*.h'
