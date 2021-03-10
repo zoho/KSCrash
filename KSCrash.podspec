@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.osx.deployment_target =  '10.8'
   s.tvos.deployment_target =  '9.0'
   s.watchos.deployment_target =  '2.0'
-  #s.source       = { :git => "https://github.com/kstenerud/KSCrash.git", :tag=>s.version.to_s }
-    s.source       = { :git => "https://github.com/zoho/KSCrash.git", :commit => "759021e7d24d26b50fe85d40b360ac14228b6d81" }
+  s.source       = { :git => "https://github.com/kstenerud/KSCrash.git", :tag=>s.version.to_s }
+#     s.source       = { :git => "https://github.com/zoho/KSCrash.git", :commit => "759021e7d24d26b50fe85d40b360ac14228b6d81" }
   s.frameworks = 'Foundation'
   s.libraries = 'c++', 'z'
   s.xcconfig = { 'GCC_ENABLE_CPP_EXCEPTIONS' => 'YES' }
