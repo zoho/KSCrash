@@ -137,7 +137,7 @@
 	self.dummyVC = [[UIViewController alloc] initWithNibName:nil bundle:nil];
 	self.dummyVC.view = [[UIView alloc] init];
 
-    UIWindow* window = [[[UIApplication sharedApplication] delegate] window];
+    UIWindow* window = [[[UIApplication performSelector:@selector(sharedApplication)] delegate] window];
     [window addSubview:self.dummyVC.view];
 
     if([self.dummyVC respondsToSelector:@selector(presentViewController:animated:completion:)])
@@ -254,7 +254,7 @@
                                                             style:UIAlertActionStyleDefault
                                                          handler:nil];
         [alertController addAction:okAction];
-        UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
+        UIWindow *keyWindow = [[UIApplication performSelector:@selector(sharedApplication)] keyWindow];
         [keyWindow.rootViewController presentViewController:alertController animated:YES completion:NULL];
 
         kscrash_callCompletion(onCompletion, reports, NO,
