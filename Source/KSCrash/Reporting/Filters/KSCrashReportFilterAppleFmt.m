@@ -116,7 +116,9 @@ static NSDictionary* g_registerOrders;
 {
     g_dateFormatter = [[NSDateFormatter alloc] init];
     [g_dateFormatter setLocale:[NSLocale localeWithLocaleIdentifier:@"en_US_POSIX"]];
-    [g_dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.SSS ZZZ"];
+    //Changed the format of diaplaying App release and build versions for Apptics.
+    //[g_dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss.SSS ZZZ"];
+         [g_dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss Z"];
 
     g_rfc3339DateFormatter = [[NSDateFormatter alloc] init];
     [g_rfc3339DateFormatter setLocale:[NSLocale localeWithLocaleIdentifier:@"en_US_POSIX"]];
@@ -448,9 +450,10 @@ static NSDictionary* g_registerOrders;
      [system objectForKey:@KSCrashField_ProcessID]];
     [str appendFormat:@"Path:            %@\n", executablePath];
     [str appendFormat:@"Identifier:      %@\n", [system objectForKey:@KSCrashField_BundleID]];
+    //Changed the format of diaplaying App release and build versions for Apptics.
     [str appendFormat:@"Version:         %@ (%@)\n",
-     [system objectForKey:@KSCrashField_BundleVersion],
-     [system objectForKey:@KSCrashField_BundleShortVersion]];
+     [system objectForKey:@KSCrashField_BundleShortVersion],
+     [system objectForKey:@KSCrashField_BundleVersion]];
     [str appendFormat:@"Code Type:       %@\n", cpuArchType];
     [str appendFormat:@"Parent Process:  ? [%@]\n",
      [system objectForKey:@KSCrashField_ParentProcessID]];
