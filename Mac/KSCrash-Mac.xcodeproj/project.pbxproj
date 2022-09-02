@@ -2026,7 +2026,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.stenerud.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = KSCrash;
 				SUPPORTED_PLATFORMS = macosx;
-				SUPPORTS_MACCATALYST = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -2052,7 +2051,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.stenerud.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = KSCrash;
 				SUPPORTED_PLATFORMS = macosx;
-				SUPPORTS_MACCATALYST = YES;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
