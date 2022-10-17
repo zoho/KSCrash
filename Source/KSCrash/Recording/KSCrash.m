@@ -94,7 +94,7 @@ static NSString* getBasePath()
            return nil;
        }
 
-       NSString *appGroupIdentifier = [[getMainBundle() infoDictionary] objectForKey:@"ZA_APP_GROUP_IDENTIFIER"];
+       NSString *appGroupIdentifier = [[getMainBundle() infoDictionary] objectForKey:@"AP_APP_GROUP_IDENTIFIER"];
        if (appGroupIdentifier != nil && ![appGroupIdentifier isEqualToString:@""]){
          cachePath = [[[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:appGroupIdentifier].path stringByAppendingPathComponent:@"Library/Caches"];
        }
