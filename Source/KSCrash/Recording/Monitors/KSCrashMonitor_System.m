@@ -564,7 +564,7 @@ static void initialize()
         g_systemData.cpuType = kssysctl_int32ForName("hw.cputype");
         g_systemData.cpuSubType = kssysctl_int32ForName("hw.cpusubtype");
         g_systemData.binaryCPUType = header->cputype;
-        g_systemData.binaryCPUSubType = header->cpusubtype;
+        g_systemData.binaryCPUSubType = (header->cpusubtype != 0) ? header->cpusubtype : kssysctl_int32ForName("hw.cpusubtype");
         g_systemData.timezone = cString([NSTimeZone localTimeZone].abbreviation);
         g_systemData.processName = cString([NSProcessInfo processInfo].processName);
         g_systemData.processID = [NSProcessInfo processInfo].processIdentifier;

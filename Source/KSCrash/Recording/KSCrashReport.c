@@ -45,6 +45,7 @@
 #include "KSStackCursor_MachineContext.h"
 #include "KSSystemCapabilities.h"
 #include "KSCrashCachedData.h"
+#import "KSSysCtl.h"
 
 //#define KSLogger_LocalLevel TRACE
 #include "KSLogger.h"
@@ -1284,7 +1285,7 @@ static void writeBinaryImage(const KSCrashReportWriter* const writer,
         writer->addStringElement(writer, KSCrashField_Name, image.name);
         writer->addUUIDElement(writer, KSCrashField_UUID, image.uuid);
         writer->addIntegerElement(writer, KSCrashField_CPUType, image.cpuType);
-        writer->addIntegerElement(writer, KSCrashField_CPUSubType, image.cpuSubType);
+        writer->addIntegerElement(writer, KSCrashField_CPUSubType, (image.cpuSubType != 0) ? image.cpuSubType : kssysctl_int32ForName("hw.cpusubtype"));
         writer->addUIntegerElement(writer, KSCrashField_ImageMajorVersion, image.majorVersion);
         writer->addUIntegerElement(writer, KSCrashField_ImageMinorVersion, image.minorVersion);
         writer->addUIntegerElement(writer, KSCrashField_ImageRevisionVersion, image.revisionVersion);

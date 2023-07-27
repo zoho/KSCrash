@@ -216,6 +216,10 @@ static NSDictionary* g_registerOrders;
 
 - (NSString*) CPUType:(NSString*) CPUArch
 {
+    if([CPUArch rangeOfString:@"arm64e"].location == 0)
+    {
+        return @"ARM-64 (Native)";
+    }
     if([CPUArch rangeOfString:@"arm64"].location == 0)
     {
         return @"ARM-64";
