@@ -2012,6 +2012,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -2025,6 +2026,7 @@
 				MODULEMAP_FILE = ../Source/Framework/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.stenerud.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = KSCrash;
+				STRIP_STYLE = "non-global";
 				SUPPORTED_PLATFORMS = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
@@ -2037,6 +2039,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -2050,6 +2053,7 @@
 				MODULEMAP_FILE = ../Source/Framework/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.stenerud.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = KSCrash;
+				STRIP_STYLE = "non-global";
 				SUPPORTED_PLATFORMS = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
