@@ -764,6 +764,7 @@
 		EDF2BF191CCF15AD004BADF4 /* KSCrashMonitor_Zombie.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D8717EB765C0056DA83 /* KSCrashMonitor_Zombie.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EDF2BF1A1CCF15AD004BADF4 /* KSCrashMonitor_MachException.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D5317EB765C0056DA83 /* KSCrashMonitor_MachException.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		EDF2BF1B1CCF15AD004BADF4 /* KSSysCtl.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D8217EB765C0056DA83 /* KSSysCtl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F8B9325C2BB54E0F001A09BF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F8B9325B2BB54E0F001A09BF /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1146,6 +1147,7 @@
 		DCA19E2E18817BA200DCA792 /* KSCrashReportFilterSets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSCrashReportFilterSets.h; path = ../../Source/KSCrash/Reporting/Filters/KSCrashReportFilterSets.h; sourceTree = "<group>"; };
 		EDF2BF211CCF15AD004BADF4 /* KSCrash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSCrash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF2BF281CCF1A27004BADF4 /* KSCrash_static-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KSCrash_static-Info.plist"; sourceTree = "<group>"; };
+		F8B9325B2BB54E0F001A09BF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = ../../PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1248,6 +1250,7 @@
 				EDF2BF281CCF1A27004BADF4 /* KSCrash_static-Info.plist */,
 				CB6D130217EB743A00BC2C04 /* InfoPlist.strings */,
 				CB6D130117EB743A00BC2C04 /* KSCrash-Info.plist */,
+				F8B9325B2BB54E0F001A09BF /* PrivacyInfo.xcprivacy */,
 				CB6D130517EB743A00BC2C04 /* KSCrash-Prefix.pch */,
 				03DE7DA91C879A0200F789BA /* KSCrashFramework.h */,
 				03DE7D0F1C84FB9E00F789BA /* module.modulemap */,
@@ -2084,6 +2087,7 @@
 				97BB897426337E2B008ED481 /* ValueWitnessMangling.def in Resources */,
 				97BB897926337E2B008ED481 /* ReferenceStorage.def in Resources */,
 				97BB897026337E2B008ED481 /* DemangleNodes.def in Resources */,
+				F8B9325C2BB54E0F001A09BF /* PrivacyInfo.xcprivacy in Resources */,
 				97BB896D26337E2B008ED481 /* StandardTypesMangling.def in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

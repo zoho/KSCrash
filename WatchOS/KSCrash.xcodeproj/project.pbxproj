@@ -201,6 +201,7 @@
 		CBA1A54B1DD25082007B1CE7 /* KSDemangle_Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA1A5471DD25082007B1CE7 /* KSDemangle_Swift.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CBA8A0D91E25D3CF0019B5B9 /* KSCrashCachedData.c in Sources */ = {isa = PBXBuildFile; fileRef = CBA8A0D71E25D3CF0019B5B9 /* KSCrashCachedData.c */; };
 		CBA8A0DA1E25D3CF0019B5B9 /* KSCrashCachedData.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA8A0D81E25D3CF0019B5B9 /* KSCrashCachedData.h */; };
+		F8B9327C2BB5563A001A09BF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F8B9327B2BB5563A001A09BF /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -402,6 +403,7 @@
 		CBA1A5471DD25082007B1CE7 /* KSDemangle_Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSDemangle_Swift.h; path = ../../Source/KSCrash/Recording/Tools/KSDemangle_Swift.h; sourceTree = "<group>"; };
 		CBA8A0D71E25D3CF0019B5B9 /* KSCrashCachedData.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = KSCrashCachedData.c; path = ../../Source/KSCrash/Recording/KSCrashCachedData.c; sourceTree = "<group>"; };
 		CBA8A0D81E25D3CF0019B5B9 /* KSCrashCachedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSCrashCachedData.h; path = ../../Source/KSCrash/Recording/KSCrashCachedData.h; sourceTree = "<group>"; };
+		F8B9327B2BB5563A001A09BF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -452,6 +454,7 @@
 				CB1F3DDD1DB04750007F240B /* module.modulemap */,
 				CB1F3DDB1DB046CB007F240B /* KSCrashFramework.h */,
 				CB0DD4FA1D9B6DD9009D4FE7 /* Info.plist */,
+				F8B9327B2BB5563A001A09BF /* PrivacyInfo.xcprivacy */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -950,6 +953,7 @@
 				97FBD4B62633968900A78412 /* ValueWitnessMangling.def in Resources */,
 				97FBD4B52633968900A78412 /* StandardTypesMangling.def in Resources */,
 				97FBD4A72633968900A78412 /* DemangleNodes.def in Resources */,
+				F8B9327C2BB5563A001A09BF /* PrivacyInfo.xcprivacy in Resources */,
 				97FBD4AF2633968900A78412 /* ReferenceStorage.def in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

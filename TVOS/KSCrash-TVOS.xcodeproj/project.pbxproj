@@ -509,6 +509,7 @@
 		F05D78B0210204CA00968B97 /* NSMutableData+AppendUTF8.h in Headers */ = {isa = PBXBuildFile; fileRef = CBEE5CCF1CB86989005EAF61 /* NSMutableData+AppendUTF8.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F05D78B2210204CA00968B97 /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = CBEE5DBC1CBC14CF005EAF61 /* NSString+URLEncode.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F05D78C0210208FB00968B97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05D78BF210208FB00968B97 /* Foundation.framework */; };
+		F8B9326E2BB554F8001A09BF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F8B9326D2BB554F8001A09BF /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -868,6 +869,7 @@
 		CBEE5DBD1CBC14CF005EAF61 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
 		F05D76C62101DF7000968B97 /* libKSCrashLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKSCrashLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05D78BF210208FB00968B97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8B9326D2BB554F8001A09BF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1301,6 +1303,7 @@
 			isa = PBXGroup;
 			children = (
 				CBEE5C2C1CB8679E005EAF61 /* Info.plist */,
+				F8B9326D2BB554F8001A09BF /* PrivacyInfo.xcprivacy */,
 				CBEE5D7B1CB86A1A005EAF61 /* KSCrashFramework.h */,
 				CBEE5D7C1CB86A1A005EAF61 /* module.modulemap */,
 			);
@@ -1648,6 +1651,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				979DB21A263394CF00914776 /* ValueWitnessMangling.def in Resources */,
+				F8B9326E2BB554F8001A09BF /* PrivacyInfo.xcprivacy in Resources */,
 				979DB219263394CF00914776 /* StandardTypesMangling.def in Resources */,
 				CBEE5D771CB86989005EAF61 /* LICENSE.txt in Resources */,
 				979DB210263394CF00914776 /* ReferenceStorage.def in Resources */,

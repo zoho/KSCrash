@@ -440,6 +440,7 @@
 		CD3DA41B1CD70F0D0037EB76 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8E571D17EBA8DF000C56D3 /* SystemConfiguration.framework */; };
 		DCA19E3418832A7800DCA792 /* KSCrashMonitor_MachException.c in Sources */ = {isa = PBXBuildFile; fileRef = DCA19E3318832A7700DCA792 /* KSCrashMonitor_MachException.c */; };
 		DCA19E3518832A8B00DCA792 /* KSCrashMonitor_MachException.c in Sources */ = {isa = PBXBuildFile; fileRef = DCA19E3318832A7700DCA792 /* KSCrashMonitor_MachException.c */; };
+		F8B9325E2BB54EC1001A09BF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F8B9325D2BB54EC1001A09BF /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -707,6 +708,7 @@
 		CBEE5DC71CBC19AF005EAF61 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncode.m"; path = "../../Source/KSCrash/Reporting/Tools/NSString+URLEncode.m"; sourceTree = "<group>"; };
 		CD3DA4191CD70F070037EB76 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		DCA19E3318832A7700DCA792 /* KSCrashMonitor_MachException.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = KSCrashMonitor_MachException.c; path = ../../Source/KSCrash/Recording/Monitors/KSCrashMonitor_MachException.c; sourceTree = "<group>"; };
+		F8B9325D2BB54EC1001A09BF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -914,6 +916,7 @@
 				03B07DB21D089690007B4758 /* KSCrashFramework.h */,
 				03B07DB31D089690007B4758 /* module.modulemap */,
 				CB8E55F217EB99E3000C56D3 /* KSCrash-Info.plist */,
+				F8B9325D2BB54EC1001A09BF /* PrivacyInfo.xcprivacy */,
 				CB8E55F317EB99E3000C56D3 /* InfoPlist.strings */,
 				CB8E55F617EB99E3000C56D3 /* KSCrash-Prefix.pch */,
 			);
@@ -1541,6 +1544,7 @@
 				CB2686171C694E4400EE4EB3 /* LICENSE.TXT in Resources */,
 				9729E5CC2633934F00AE3237 /* DemangleNodes.def in Resources */,
 				9729E5D52633934F00AE3237 /* StandardTypesMangling.def in Resources */,
+				F8B9325E2BB54EC1001A09BF /* PrivacyInfo.xcprivacy in Resources */,
 				CB8E55F517EB99E3000C56D3 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
