@@ -526,7 +526,7 @@ crashDescriptionKeys:(NSArray*) crashDescriptionKeys
 
 - (NSURL*) urlWithAppIdentifier:(NSString*) appIdentifier
 {
-    NSString* urlString = [NSString stringWithFormat:@"https://sdk.hockeyapp.net/api/2/apps/%@/crashes",
+    NSString* urlString = [NSString stringWithFormat:@"https://sdk-apptics.zoho.com/api/2/apps/%@/crashes",
                            [appIdentifier URLEncoded]];
     return [NSURL URLWithString:urlString];
 }
