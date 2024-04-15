@@ -85,8 +85,6 @@
 		03DE7CA11C84DFB100F789BA /* KSCrashReportSinkConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D4217EB765C0056DA83 /* KSCrashReportSinkConsole.m */; };
 		03DE7CA21C84DFB100F789BA /* KSCrashReportSinkEMail.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4317EB765C0056DA83 /* KSCrashReportSinkEMail.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03DE7CA31C84DFB100F789BA /* KSCrashReportSinkEMail.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D4417EB765C0056DA83 /* KSCrashReportSinkEMail.m */; };
-		03DE7CA41C84DFB100F789BA /* KSCrashReportSinkQuincyHockey.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4517EB765C0056DA83 /* KSCrashReportSinkQuincyHockey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03DE7CA51C84DFB100F789BA /* KSCrashReportSinkQuincyHockey.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D4617EB765C0056DA83 /* KSCrashReportSinkQuincyHockey.m */; };
 		03DE7CA61C84DFB100F789BA /* KSCrashReportSinkStandard.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4717EB765C0056DA83 /* KSCrashReportSinkStandard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03DE7CA71C84DFB100F789BA /* KSCrashReportSinkStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D4817EB765C0056DA83 /* KSCrashReportSinkStandard.m */; };
 		03DE7CA81C84DFB100F789BA /* KSCrashReportSinkVictory.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4917EB765C0056DA83 /* KSCrashReportSinkVictory.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -124,8 +122,6 @@
 		03DE7CC91C84DFCD00F789BA /* KSCrashInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D2617EB765C0056DA83 /* KSCrashInstallation.m */; };
 		03DE7CCA1C84DFCD00F789BA /* KSCrashInstallationEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2817EB765C0056DA83 /* KSCrashInstallationEmail.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03DE7CCB1C84DFCD00F789BA /* KSCrashInstallationEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D2917EB765C0056DA83 /* KSCrashInstallationEmail.m */; };
-		03DE7CCC1C84DFCD00F789BA /* KSCrashInstallationQuincyHockey.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2A17EB765C0056DA83 /* KSCrashInstallationQuincyHockey.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03DE7CCD1C84DFCD00F789BA /* KSCrashInstallationQuincyHockey.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D2B17EB765C0056DA83 /* KSCrashInstallationQuincyHockey.m */; };
 		03DE7CCE1C84DFCD00F789BA /* KSCrashInstallationStandard.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2C17EB765C0056DA83 /* KSCrashInstallationStandard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		03DE7CCF1C84DFCD00F789BA /* KSCrashInstallationStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D2D17EB765C0056DA83 /* KSCrashInstallationStandard.m */; };
 		03DE7CD01C84DFCD00F789BA /* KSCrashInstallationVictory.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2E17EB765C0056DA83 /* KSCrashInstallationVictory.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -213,7 +209,6 @@
 		632D8DF81EDFFA6700A9A62E /* NSData+KSGZip.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CBF53D8917EB765C0056DA83 /* NSData+KSGZip.h */; };
 		632D8DF91EDFFA6700A9A62E /* KSCrashReportSinkConsole.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4117EB765C0056DA83 /* KSCrashReportSinkConsole.h */; };
 		632D8DFA1EDFFA6700A9A62E /* KSCrashReportSinkEMail.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4317EB765C0056DA83 /* KSCrashReportSinkEMail.h */; };
-		632D8DFB1EDFFA6700A9A62E /* KSCrashReportSinkQuincyHockey.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4517EB765C0056DA83 /* KSCrashReportSinkQuincyHockey.h */; };
 		632D8DFC1EDFFA6700A9A62E /* KSCrashReportSinkStandard.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4717EB765C0056DA83 /* KSCrashReportSinkStandard.h */; };
 		632D8DFD1EDFFA6700A9A62E /* KSCrashReportSinkVictory.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4917EB765C0056DA83 /* KSCrashReportSinkVictory.h */; };
 		632D8DFE1EDFFA6700A9A62E /* KSCString.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CBF53D6117EB765C0056DA83 /* KSCString.h */; };
@@ -227,7 +222,6 @@
 		632D8E061EDFFA6700A9A62E /* KSCrashInstallation+Private.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2717EB765C0056DA83 /* KSCrashInstallation+Private.h */; };
 		632D8E071EDFFA6700A9A62E /* KSCrashInstallationConsole.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CB94D35B1CAC11B000806679 /* KSCrashInstallationConsole.h */; };
 		632D8E081EDFFA6700A9A62E /* KSCrashInstallationEmail.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2817EB765C0056DA83 /* KSCrashInstallationEmail.h */; };
-		632D8E091EDFFA6700A9A62E /* KSCrashInstallationQuincyHockey.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2A17EB765C0056DA83 /* KSCrashInstallationQuincyHockey.h */; };
 		632D8E0A1EDFFA6700A9A62E /* KSCrashInstallationStandard.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2C17EB765C0056DA83 /* KSCrashInstallationStandard.h */; };
 		632D8E0B1EDFFA6700A9A62E /* KSCrashInstallationVictory.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2E17EB765C0056DA83 /* KSCrashInstallationVictory.h */; };
 		632D8E0C1EDFFA6700A9A62E /* KSCrash.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = CBF53D1B17EB765C0056DA83 /* KSCrash.h */; };
@@ -530,7 +524,6 @@
 		CBF53DAB17EB765C0056DA83 /* KSCrashDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D2417EB765C0056DA83 /* KSCrashDoctor.m */; };
 		CBF53DAE17EB765C0056DA83 /* KSCrashInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D2617EB765C0056DA83 /* KSCrashInstallation.m */; };
 		CBF53DB217EB765C0056DA83 /* KSCrashInstallationEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D2917EB765C0056DA83 /* KSCrashInstallationEmail.m */; };
-		CBF53DB517EB765C0056DA83 /* KSCrashInstallationQuincyHockey.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D2B17EB765C0056DA83 /* KSCrashInstallationQuincyHockey.m */; };
 		CBF53DB817EB765C0056DA83 /* KSCrashInstallationStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D2D17EB765C0056DA83 /* KSCrashInstallationStandard.m */; };
 		CBF53DBB17EB765C0056DA83 /* KSCrashInstallationVictory.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D2F17EB765C0056DA83 /* KSCrashInstallationVictory.m */; };
 		CBF53DBD17EB765C0056DA83 /* KSCrashReport.c in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D3017EB765C0056DA83 /* KSCrashReport.c */; };
@@ -542,7 +535,6 @@
 		CBF53DD417EB765C0056DA83 /* KSCrashReportFilterSets.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D4017EB765C0056DA83 /* KSCrashReportFilterSets.m */; };
 		CBF53DD717EB765C0056DA83 /* KSCrashReportSinkConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D4217EB765C0056DA83 /* KSCrashReportSinkConsole.m */; };
 		CBF53DDA17EB765C0056DA83 /* KSCrashReportSinkEMail.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D4417EB765C0056DA83 /* KSCrashReportSinkEMail.m */; };
-		CBF53DDD17EB765C0056DA83 /* KSCrashReportSinkQuincyHockey.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D4617EB765C0056DA83 /* KSCrashReportSinkQuincyHockey.m */; };
 		CBF53DE017EB765C0056DA83 /* KSCrashReportSinkStandard.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D4817EB765C0056DA83 /* KSCrashReportSinkStandard.m */; };
 		CBF53DE317EB765C0056DA83 /* KSCrashReportSinkVictory.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D4A17EB765C0056DA83 /* KSCrashReportSinkVictory.m */; };
 		CBF53DED17EB765C0056DA83 /* KSCrashMonitor_Deadlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D5117EB765C0056DA83 /* KSCrashMonitor_Deadlock.m */; };
@@ -605,7 +597,6 @@
 		CBF53E7E17EB7EA80056DA83 /* KSCrashReportFilterJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D3D17EB765C0056DA83 /* KSCrashReportFilterJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF53E8017EB7EA80056DA83 /* KSCrashReportSinkConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4117EB765C0056DA83 /* KSCrashReportSinkConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF53E8117EB7EA80056DA83 /* KSCrashReportSinkEMail.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4317EB765C0056DA83 /* KSCrashReportSinkEMail.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBF53E8217EB7EA80056DA83 /* KSCrashReportSinkQuincyHockey.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4517EB765C0056DA83 /* KSCrashReportSinkQuincyHockey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF53E8317EB7EA80056DA83 /* KSCrashReportSinkStandard.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4717EB765C0056DA83 /* KSCrashReportSinkStandard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF53E8417EB7EA80056DA83 /* KSCrashReportSinkVictory.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4917EB765C0056DA83 /* KSCrashReportSinkVictory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF53E8517EB7EA80056DA83 /* KSCrashDoctor.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2317EB765C0056DA83 /* KSCrashDoctor.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -622,7 +613,6 @@
 		CBF53E9317EB7EA80056DA83 /* KSCrashInstallation+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2717EB765C0056DA83 /* KSCrashInstallation+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF53E9417EB7EA80056DA83 /* KSCrashInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2517EB765C0056DA83 /* KSCrashInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF53E9517EB7EA80056DA83 /* KSCrashInstallationEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2817EB765C0056DA83 /* KSCrashInstallationEmail.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CBF53E9617EB7EA80056DA83 /* KSCrashInstallationQuincyHockey.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2A17EB765C0056DA83 /* KSCrashInstallationQuincyHockey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF53E9717EB7EA80056DA83 /* KSCrashInstallationStandard.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2C17EB765C0056DA83 /* KSCrashInstallationStandard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF53E9817EB7EA80056DA83 /* KSCrashInstallationVictory.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2E17EB765C0056DA83 /* KSCrashInstallationVictory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CBF53E9917EB7EA80056DA83 /* KSCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D1B17EB765C0056DA83 /* KSCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -641,7 +631,6 @@
 		EDF2BE851CCF15AD004BADF4 /* KSCrashInstallationConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = CB94D35C1CAC11B000806679 /* KSCrashInstallationConsole.m */; };
 		EDF2BE861CCF15AD004BADF4 /* KSCrashMonitor_System.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D8417EB765C0056DA83 /* KSCrashMonitor_System.m */; };
 		EDF2BE871CCF15AD004BADF4 /* KSCrashReportFilterStringify.m in Sources */ = {isa = PBXBuildFile; fileRef = CB94D3621CAC190900806679 /* KSCrashReportFilterStringify.m */; };
-		EDF2BE881CCF15AD004BADF4 /* KSCrashInstallationQuincyHockey.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D2B17EB765C0056DA83 /* KSCrashInstallationQuincyHockey.m */; };
 		EDF2BE891CCF15AD004BADF4 /* KSCPU_arm.c in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D6F17EB765C0056DA83 /* KSCPU_arm.c */; };
 		EDF2BE8A1CCF15AD004BADF4 /* Punycode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBC43F1B1C5AF2B10083A11B /* Punycode.cpp */; };
 		EDF2BE8C1CCF15AD004BADF4 /* KSCrashDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D2417EB765C0056DA83 /* KSCrashDoctor.m */; };
@@ -661,7 +650,6 @@
 		EDF2BE9D1CCF15AD004BADF4 /* KSCrashMonitor.c in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D5B17EB765C0056DA83 /* KSCrashMonitor.c */; };
 		EDF2BE9F1CCF15AD004BADF4 /* KSJSONCodecObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D6C17EB765C0056DA83 /* KSJSONCodecObjC.m */; };
 		EDF2BEA01CCF15AD004BADF4 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = CBEE5DC11CBC197D005EAF61 /* NSString+URLEncode.m */; };
-		EDF2BEA11CCF15AD004BADF4 /* KSCrashReportSinkQuincyHockey.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D4617EB765C0056DA83 /* KSCrashReportSinkQuincyHockey.m */; };
 		EDF2BEA21CCF15AD004BADF4 /* KSCPU_arm64.c in Sources */ = {isa = PBXBuildFile; fileRef = CB02647E17F7CEC5003E0AED /* KSCPU_arm64.c */; };
 		EDF2BEA31CCF15AD004BADF4 /* KSCrashReportSinkVictory.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D4A17EB765C0056DA83 /* KSCrashReportSinkVictory.m */; };
 		EDF2BEA41CCF15AD004BADF4 /* KSMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = CBF53D7217EB765C0056DA83 /* KSMemory.c */; };
@@ -699,7 +687,6 @@
 		EDF2BECD1CCF15AD004BADF4 /* KSCrashReportSinkConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4117EB765C0056DA83 /* KSCrashReportSinkConsole.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF2BECE1CCF15AD004BADF4 /* KSCrashReportFilterSets.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA19E2E18817BA200DCA792 /* KSCrashReportFilterSets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF2BECF1CCF15AD004BADF4 /* KSCrashReportFilterAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = DCA19E2B18817AD100DCA792 /* KSCrashReportFilterAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDF2BED01CCF15AD004BADF4 /* KSCrashReportSinkQuincyHockey.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4517EB765C0056DA83 /* KSCrashReportSinkQuincyHockey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF2BED11CCF15AD004BADF4 /* KSCrashReportSinkVictory.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4917EB765C0056DA83 /* KSCrashReportSinkVictory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF2BED21CCF15AD004BADF4 /* KSCrashReportSinkEMail.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D4317EB765C0056DA83 /* KSCrashReportSinkEMail.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF2BED31CCF15AD004BADF4 /* KSCrashReportFilterJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D3D17EB765C0056DA83 /* KSCrashReportFilterJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -710,7 +697,6 @@
 		EDF2BED81CCF15AD004BADF4 /* KSCrashReportFilterAppleFmt.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D3717EB765C0056DA83 /* KSCrashReportFilterAppleFmt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF2BED91CCF15AD004BADF4 /* KSCrashReportFilterBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D3917EB765C0056DA83 /* KSCrashReportFilterBasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF2BEDA1CCF15AD004BADF4 /* KSCrashInstallationStandard.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2C17EB765C0056DA83 /* KSCrashInstallationStandard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDF2BEDB1CCF15AD004BADF4 /* KSCrashInstallationQuincyHockey.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2A17EB765C0056DA83 /* KSCrashInstallationQuincyHockey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF2BEDC1CCF15AD004BADF4 /* KSCrashInstallationVictory.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2E17EB765C0056DA83 /* KSCrashInstallationVictory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF2BEDD1CCF15AD004BADF4 /* KSCrashInstallation.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2517EB765C0056DA83 /* KSCrashInstallation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF2BEDE1CCF15AD004BADF4 /* KSCrashInstallationEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF53D2817EB765C0056DA83 /* KSCrashInstallationEmail.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -862,7 +848,6 @@
 				632D8DF81EDFFA6700A9A62E /* NSData+KSGZip.h in Copy Headers */,
 				632D8DF91EDFFA6700A9A62E /* KSCrashReportSinkConsole.h in Copy Headers */,
 				632D8DFA1EDFFA6700A9A62E /* KSCrashReportSinkEMail.h in Copy Headers */,
-				632D8DFB1EDFFA6700A9A62E /* KSCrashReportSinkQuincyHockey.h in Copy Headers */,
 				632D8DFC1EDFFA6700A9A62E /* KSCrashReportSinkStandard.h in Copy Headers */,
 				632D8DFD1EDFFA6700A9A62E /* KSCrashReportSinkVictory.h in Copy Headers */,
 				632D8DFE1EDFFA6700A9A62E /* KSCString.h in Copy Headers */,
@@ -876,7 +861,6 @@
 				632D8E061EDFFA6700A9A62E /* KSCrashInstallation+Private.h in Copy Headers */,
 				632D8E071EDFFA6700A9A62E /* KSCrashInstallationConsole.h in Copy Headers */,
 				632D8E081EDFFA6700A9A62E /* KSCrashInstallationEmail.h in Copy Headers */,
-				632D8E091EDFFA6700A9A62E /* KSCrashInstallationQuincyHockey.h in Copy Headers */,
 				632D8E0A1EDFFA6700A9A62E /* KSCrashInstallationStandard.h in Copy Headers */,
 				632D8E0B1EDFFA6700A9A62E /* KSCrashInstallationVictory.h in Copy Headers */,
 				632D8E0C1EDFFA6700A9A62E /* KSCrash.h in Copy Headers */,
@@ -1667,7 +1651,6 @@
 				03DE7CA01C84DFB100F789BA /* KSCrashReportSinkConsole.h in Headers */,
 				03DE7CB61C84DFB700F789BA /* KSCrashReportFilterSets.h in Headers */,
 				03DE7CAC1C84DFB600F789BA /* KSCrashReportFilterAlert.h in Headers */,
-				03DE7CA41C84DFB100F789BA /* KSCrashReportSinkQuincyHockey.h in Headers */,
 				03DE7CA81C84DFB100F789BA /* KSCrashReportSinkVictory.h in Headers */,
 				03DE7CA21C84DFB100F789BA /* KSCrashReportSinkEMail.h in Headers */,
 				03DE7CB41C84DFB700F789BA /* KSCrashReportFilterJSON.h in Headers */,
@@ -1682,7 +1665,6 @@
 				03DE7CB01C84DFB600F789BA /* KSCrashReportFilterBasic.h in Headers */,
 				03DE7CCE1C84DFCD00F789BA /* KSCrashInstallationStandard.h in Headers */,
 				CBA8A0C91E2561210019B5B9 /* KSCrashCachedData.h in Headers */,
-				03DE7CCC1C84DFCD00F789BA /* KSCrashInstallationQuincyHockey.h in Headers */,
 				03DE7CD01C84DFCD00F789BA /* KSCrashInstallationVictory.h in Headers */,
 				03DE7CC81C84DFCD00F789BA /* KSCrashInstallation.h in Headers */,
 				03DE7CCA1C84DFCD00F789BA /* KSCrashInstallationEmail.h in Headers */,
@@ -1762,7 +1744,6 @@
 				CBF53E9917EB7EA80056DA83 /* KSCrash.h in Headers */,
 				CBF53E9417EB7EA80056DA83 /* KSCrashInstallation.h in Headers */,
 				CBF53E9517EB7EA80056DA83 /* KSCrashInstallationEmail.h in Headers */,
-				CBF53E9617EB7EA80056DA83 /* KSCrashInstallationQuincyHockey.h in Headers */,
 				CBC43F2B1C5AF2B10083A11B /* Compiler.h in Headers */,
 				CB5657EE1E1D8A71005A8302 /* KSStackCursor_SelfThread.h in Headers */,
 				CBF53E9717EB7EA80056DA83 /* KSCrashInstallationStandard.h in Headers */,
@@ -1780,7 +1761,6 @@
 				CB94D35D1CAC11B000806679 /* KSCrashInstallationConsole.h in Headers */,
 				CB25A5DA1DF22F4000EC2B02 /* KSThread.h in Headers */,
 				CBF53E8117EB7EA80056DA83 /* KSCrashReportSinkEMail.h in Headers */,
-				CBF53E8217EB7EA80056DA83 /* KSCrashReportSinkQuincyHockey.h in Headers */,
 				CBA997711C9214AD00D12149 /* KSCrashReportVersion.h in Headers */,
 				CB42F4551C6D180F002FD017 /* DemangleNodes.h in Headers */,
 				CBF53E8317EB7EA80056DA83 /* KSCrashReportSinkStandard.h in Headers */,
@@ -1880,7 +1860,6 @@
 				EDF2BECD1CCF15AD004BADF4 /* KSCrashReportSinkConsole.h in Headers */,
 				EDF2BECE1CCF15AD004BADF4 /* KSCrashReportFilterSets.h in Headers */,
 				EDF2BECF1CCF15AD004BADF4 /* KSCrashReportFilterAlert.h in Headers */,
-				EDF2BED01CCF15AD004BADF4 /* KSCrashReportSinkQuincyHockey.h in Headers */,
 				EDF2BED11CCF15AD004BADF4 /* KSCrashReportSinkVictory.h in Headers */,
 				EDF2BED21CCF15AD004BADF4 /* KSCrashReportSinkEMail.h in Headers */,
 				EDF2BED31CCF15AD004BADF4 /* KSCrashReportFilterJSON.h in Headers */,
@@ -1893,7 +1872,6 @@
 				EDF2BED81CCF15AD004BADF4 /* KSCrashReportFilterAppleFmt.h in Headers */,
 				EDF2BED91CCF15AD004BADF4 /* KSCrashReportFilterBasic.h in Headers */,
 				EDF2BEDA1CCF15AD004BADF4 /* KSCrashInstallationStandard.h in Headers */,
-				EDF2BEDB1CCF15AD004BADF4 /* KSCrashInstallationQuincyHockey.h in Headers */,
 				EDF2BEDC1CCF15AD004BADF4 /* KSCrashInstallationVictory.h in Headers */,
 				EDF2BEDD1CCF15AD004BADF4 /* KSCrashInstallation.h in Headers */,
 				CBA8A0CA1E2561210019B5B9 /* KSCrashCachedData.h in Headers */,
@@ -2154,7 +2132,6 @@
 				CB94D3601CAC11B000806679 /* KSCrashInstallationConsole.m in Sources */,
 				03DE7C4D1C84DF8100F789BA /* KSCrashMonitor_System.m in Sources */,
 				CB94D3661CAC190900806679 /* KSCrashReportFilterStringify.m in Sources */,
-				03DE7CCD1C84DFCD00F789BA /* KSCrashInstallationQuincyHockey.m in Sources */,
 				CB48F6CD1DCD0D490099D264 /* KSDemangle_CPP.cpp in Sources */,
 				03DE7C851C84DFAB00F789BA /* KSCPU_arm.c in Sources */,
 				CB41F0721E0C4F8B00A1C9D7 /* KSStackCursor_MachineContext.c in Sources */,
@@ -2181,7 +2158,6 @@
 				03DE7C801C84DFAB00F789BA /* KSJSONCodecObjC.m in Sources */,
 				CB25A6131DF25EF100EC2B02 /* KSMachineContext.c in Sources */,
 				CBEE5DC51CBC197D005EAF61 /* NSString+URLEncode.m in Sources */,
-				03DE7CA51C84DFB100F789BA /* KSCrashReportSinkQuincyHockey.m in Sources */,
 				03DE7C861C84DFAB00F789BA /* KSCPU_arm64.c in Sources */,
 				03DE7CA91C84DFB100F789BA /* KSCrashReportSinkVictory.m in Sources */,
 				03DE7C831C84DFAB00F789BA /* KSMemory.c in Sources */,
@@ -2250,7 +2226,6 @@
 				CBF53DE317EB765C0056DA83 /* KSCrashReportSinkVictory.m in Sources */,
 				CBF53DC817EB765C0056DA83 /* KSCrashReportFilterAppleFmt.m in Sources */,
 				CBF53E1C17EB765C0056DA83 /* KSCPU_x86_32.c in Sources */,
-				CBF53DDD17EB765C0056DA83 /* KSCrashReportSinkQuincyHockey.m in Sources */,
 				CB25A5D71DF22F4000EC2B02 /* KSThread.c in Sources */,
 				CB0C19BF1DD0F2EE005B2F80 /* KSCrashReportFixer.c in Sources */,
 				CBF53DF617EB765C0056DA83 /* KSCrashMonitor_Signal.c in Sources */,
@@ -2262,7 +2237,6 @@
 				CBF53E0F17EB765C0056DA83 /* KSHTTPRequestSender.m in Sources */,
 				CB94D3651CAC190900806679 /* KSCrashReportFilterStringify.m in Sources */,
 				CBF53DCE17EB765C0056DA83 /* KSCrashReportFilterGZip.m in Sources */,
-				CBF53DB517EB765C0056DA83 /* KSCrashInstallationQuincyHockey.m in Sources */,
 				CB48F6CC1DCD0D490099D264 /* KSDemangle_CPP.cpp in Sources */,
 				CB02648017F7CEC5003E0AED /* KSCPU_arm64.c in Sources */,
 				CB41F0711E0C4F8B00A1C9D7 /* KSStackCursor_MachineContext.c in Sources */,
@@ -2417,7 +2391,6 @@
 				EDF2BE851CCF15AD004BADF4 /* KSCrashInstallationConsole.m in Sources */,
 				EDF2BE861CCF15AD004BADF4 /* KSCrashMonitor_System.m in Sources */,
 				EDF2BE871CCF15AD004BADF4 /* KSCrashReportFilterStringify.m in Sources */,
-				EDF2BE881CCF15AD004BADF4 /* KSCrashInstallationQuincyHockey.m in Sources */,
 				CB48F6CE1DCD0D490099D264 /* KSDemangle_CPP.cpp in Sources */,
 				EDF2BE891CCF15AD004BADF4 /* KSCPU_arm.c in Sources */,
 				CB41F0731E0C4F8B00A1C9D7 /* KSStackCursor_MachineContext.c in Sources */,
@@ -2443,7 +2416,6 @@
 				EDF2BE9F1CCF15AD004BADF4 /* KSJSONCodecObjC.m in Sources */,
 				CB25A6141DF25EF100EC2B02 /* KSMachineContext.c in Sources */,
 				EDF2BEA01CCF15AD004BADF4 /* NSString+URLEncode.m in Sources */,
-				EDF2BEA11CCF15AD004BADF4 /* KSCrashReportSinkQuincyHockey.m in Sources */,
 				EDF2BEA21CCF15AD004BADF4 /* KSCPU_arm64.c in Sources */,
 				EDF2BEA31CCF15AD004BADF4 /* KSCrashReportSinkVictory.m in Sources */,
 				EDF2BEA41CCF15AD004BADF4 /* KSMemory.c in Sources */,
